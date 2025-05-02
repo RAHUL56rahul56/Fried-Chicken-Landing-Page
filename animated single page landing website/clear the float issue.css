@@ -1,0 +1,9 @@
+/*----------------float----------clear fix --------- */
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+class="clearfix"

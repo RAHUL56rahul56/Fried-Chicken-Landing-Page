@@ -1,0 +1,78 @@
+/* this is font import codes--from googlefonts--get code--embeded code */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap');
+
+:root{
+    /* ----font family -- this root is used for future variabile get easily--*/
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary:"Inter", sans-serif;
+    --ff-design: "Satisfy", cursive;
+    --ff-brand: "Margarine", sans-serif;  
+    /* ------------- colors ------------ */
+
+    --clr-white: #fff;
+    --clr-dark: #333;
+    --clr-grey-1: #102a42;
+    --clr-grey-2: #617d98;
+    --clr-grey-3: #f1f5f8;
+    --clr-primary: #f53b57;
+    --clr-primary-light: #f84660;
+    --clr-secondary: #e9b949;
+}
+/*------ Global CSS --- This is used comman--*/
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem; /* 1rem =16px */
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+  }
+h4{
+    font-size: 0.875rem;
+}
+p{
+    margin-bottom: 1.75rem;
+}
+ /* -------------navibar ------------------*/
+.nav-btn svg {
+    fill: var(--clr-primary);
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+ /*   height: 32px;
+    width: 32px; we want to change size use this */
+ }
+
+ .navbar {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+ }
